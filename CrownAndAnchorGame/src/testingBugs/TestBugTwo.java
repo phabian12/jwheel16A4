@@ -7,7 +7,7 @@ import originalGame.Player;
 
 /* Author: James Wheeler
  * Student Number: 11515083
- * Intention of this test: Reproduce Bug 1
+ * Intention of this test: Reproduce Bug 2
  */
 
 

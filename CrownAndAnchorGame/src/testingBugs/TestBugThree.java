@@ -120,13 +120,12 @@ public class TestBugThree {
 				System.out.println(testPlayer_.getName() + " won " + playerWinnings_ + ". Balance is now: "
 						+ testPlayer_.getBalance() + "\n");
 			} else {
-				System.out.println(testPlayer_.getName() + " lost " + playerWinnings_ + ". Balance is now: "
-						+ testPlayer_.getBalance() + "\n");
+				System.out.println(testPlayer_.getName() + " lost. Balance is now: " + testPlayer_.getBalance() + "\n");
 			}
 		}
 
 		// printing out the total number of wins and losses the player has
-		System.out.println("Win Count=  " + gamesWon_ + ", " + "Lose Count= " + gamesLost_);
+		System.out.println("Win Count =  " + gamesWon_ + ", " + "Lose Count = " + gamesLost_);
 
 		// refomatting the to 2 decimal places
 		DecimalFormat reformat_ = new DecimalFormat("####0.00");

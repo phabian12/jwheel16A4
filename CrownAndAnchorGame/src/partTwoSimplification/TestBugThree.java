@@ -1,4 +1,4 @@
-package testingBugs;
+package partTwoSimplification;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;

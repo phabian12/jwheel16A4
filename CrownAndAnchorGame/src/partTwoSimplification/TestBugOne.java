@@ -1,4 +1,4 @@
-package testingBugs;
+package partTwoSimplification;
 
 import originalGame.Dice;
 import originalGame.DiceValue;

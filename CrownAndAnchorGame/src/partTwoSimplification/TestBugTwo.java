@@ -1,4 +1,4 @@
-package testingBugs;
+package partTwoSimplification;
 
 import org.junit.Before;
 import org.junit.Test;

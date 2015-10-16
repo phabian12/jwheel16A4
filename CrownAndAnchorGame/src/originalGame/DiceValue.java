@@ -23,8 +23,15 @@ public enum DiceValue {
 		return VALUE_REPR_MAP.get(value);
 	}
 
+	/* OLD CODE */
+//	public static DiceValue getRandom() {
+//		int random = RANDOM.nextInt(DiceValue.SPADE.ordinal());
+//		return values()[random];
+//	}
+	
+	/* NEW CODE */
 	public static DiceValue getRandom() {
-		int random = RANDOM.nextInt(DiceValue.SPADE.ordinal());
+		int random = RANDOM.nextInt(6);
 		return values()[random];
 	}
 

@@ -11,9 +11,14 @@ public class Dice {
 		return value;
 	}
 
+	/* OLD CODE */
+//	public DiceValue roll() {
+//		return DiceValue.getRandom();
+//	}
+	
+	/* NEW CODE */
 	public DiceValue roll() {
-		return DiceValue.getRandom();
-		//return value = DiceValue.getRandom();
+		return value = DiceValue.getRandom();
 	}
 
 	public String toString() {

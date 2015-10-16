@@ -39,8 +39,14 @@ public class Player {
 		return (balance > limit);
 	}
 
+	/* OLD CODE */
+//	public boolean balanceExceedsLimitBy(int amount) {
+//		return (balance - amount > limit);
+//	}
+	
+	/* NEW CODE */
 	public boolean balanceExceedsLimitBy(int amount) {
-		return (balance - amount > limit);
+		return (balance - amount >= limit);
 	}
 
 	public void takeBet(int bet) {

@@ -56,12 +56,6 @@ public class Player {
 			throw new IllegalArgumentException("Winnings cannot be negative.");
 		balance = balance + winnings;
 	}
-	
-//	public void receiveWinnings(int winnings, int bet) {
-//		if (winnings < 0)
-//			throw new IllegalArgumentException("Winnings cannot be negative.");
-//		balance = balance + winnings + bet;
-//	}
 
 	public String toString() {
 		return String.format("Player: %s, Balance: %d, Limit: %d", name, balance, limit);

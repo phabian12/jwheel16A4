@@ -1,4 +1,4 @@
-package partTwoSimplification;
+package part2Simplification;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package partTwoSimplification;
+package part2Simplification;
 
 import originalGame.Dice;
 import originalGame.DiceValue;

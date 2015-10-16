@@ -49,13 +49,7 @@ public class Game {
 		if (matches > 0) {
 			player.receiveWinnings(winnings);
 		}
-//		else{
-//			player.takeBet(bet);
-//		}
-		
-//		if (matches > 0) {
-//			player.receiveWinnings(winnings, bet);
-//		}
+
 		return winnings;
 	}
 

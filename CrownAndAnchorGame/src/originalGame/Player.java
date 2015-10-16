@@ -51,10 +51,18 @@ public class Player {
 		balance = balance - bet;
 	}
 
-	public void receiveWinnings(int winnings) {
+	/* OLD CODE */
+//	public void receiveWinnings(int winnings) {
+//		if (winnings < 0)
+//			throw new IllegalArgumentException("Winnings cannot be negative.");
+//		balance = balance + winnings;
+//	}
+	
+	/* NEW CODE */
+	public void receiveWinnings(int winnings, int bet) {
 		if (winnings < 0)
 			throw new IllegalArgumentException("Winnings cannot be negative.");
-		balance = balance + winnings;
+		balance = balance + winnings + bet;
 	}
 
 	public String toString() {
